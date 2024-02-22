@@ -6,6 +6,7 @@ public class Libro {
     private String ISBM;
     private String estado;
     private Miembro miembroAsociado;
+    private Prestamo prestamoAsociado;
 
     public String getTitulo() {
         return titulo;
@@ -37,5 +38,21 @@ public class Libro {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public Miembro getMiembroAsociado() {
+        return miembroAsociado;
+    }
+
+    public void setMiembroAsociado(Miembro miembroAsociado) {
+        this.miembroAsociado = miembroAsociado;
+    }
+
+    public Prestamo getPrestamoAsociado() {
+        return prestamoAsociado;
+    }
+
+    public void setPrestamoAsociado(Prestamo prestamoAsociado) {
+        this.prestamoAsociado = prestamoAsociado;
     }
 }
