@@ -10,6 +10,9 @@ public class Biblioteca {
     private List<Prestamo> listaPrestamo = new ArrayList<>();
     private List<Empleado> listaEmpleados = new ArrayList<>();
 
+    public Biblioteca() {
+    }
+
     public String getNombre() {
         return nombre;
     }

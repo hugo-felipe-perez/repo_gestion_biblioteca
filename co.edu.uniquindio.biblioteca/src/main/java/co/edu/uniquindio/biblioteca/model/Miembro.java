@@ -8,6 +8,9 @@ public class Miembro {
     private String iD;
     private List<Prestamo> prestamosActivos = new ArrayList<>();
 
+    public Miembro() {
+    }
+
     public String getNombre() {
         return nombre;
     }

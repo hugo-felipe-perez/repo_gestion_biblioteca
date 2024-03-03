@@ -8,6 +8,9 @@ public class Libro {
     private Miembro miembroAsociado;
     private Prestamo prestamoAsociado;
 
+    public Libro() {
+    }
+
     public String getTitulo() {
         return titulo;
     }

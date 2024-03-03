@@ -9,6 +9,9 @@ public class Prestamo {
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucion;
 
+    public Prestamo() {
+    }
+
     public String getNumeroPrestamo() {
         return numeroPrestamo;
     }
